@@ -1,0 +1,17 @@
+ <!-- Include a navbar -->
+ <div class="navbar">
+  <nav class="nav-container">
+    <ul class="left-nav">
+      Angular Twitter App
+    </ul>
+    <ul class="right-nav">
+      <!-- SPA helps us avoid needing to reload the browser whenever data changes -->
+      <li><a href="#" routerLink = "/">Home</a></li>
+      <li><a href="#" routerLink = "/new">New Tweet</a></li>
+    </ul>
+  </nav>
+ </div>
+ <!-- Our routing -->
+<div class="main-container">
+  <router-outlet></router-outlet>
+</div>
